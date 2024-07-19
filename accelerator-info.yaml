@@ -1,0 +1,21 @@
+id: 733fc184-84d1-4795-ac26-11d99323e73a
+timestamp: 2024-07-19T20:43:15.298Z
+source: TAP-GUI
+username: mpluya
+options:
+  bsGitBranch: main
+  projectName: tsc-app
+  javaVersion: "17"
+  buildTool: maven
+  nativeBuild: false
+  includeBuildToolWrapper: true
+  includeDevContainer: false
+  bsGitRepository: github.com?owner=Mpluya&repo=tsc-app
+accelerator:
+  name: tanzu-java-web-app
+fragments:
+  - name: build-wrapper-gradle
+  - name: build-wrapper-maven
+  - name: devcontainer
+  - name: java-version
+  - name: tap-workload
